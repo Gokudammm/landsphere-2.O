@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { z } = require('zod');
 const { answer } = require('../aiAssistant');
-const { validate } = require('../middleware/validate');
+const { validate } = require('../validate');
 
 router.post(
   '/query',
